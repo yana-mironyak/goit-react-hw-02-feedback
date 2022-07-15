@@ -8,7 +8,7 @@
 }
 
 .feedbackButtons:active {
-    background-color: rgb(153, 153, 212);
+    background-color: rgb(153, 153, 211);
     transition: background-color 0ms;
 }
 
