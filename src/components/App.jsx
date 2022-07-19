@@ -4,15 +4,7 @@ import FeedbackOptions from "./FeedbackOptions";
 import Section from "./Section";
 import Notification from "./Notification";
 
-export const App = () => {
-    return (
-        <>
-            <FeedbackCounter />
-        </>
-  )
-};
-
-class FeedbackCounter extends React.Component {
+export class App extends React.Component {
     state = {
         good: 0,
         neutral: 0,
